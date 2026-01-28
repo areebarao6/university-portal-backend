@@ -1,12 +1,12 @@
 console.log("Server file loaded");
 
 const express = require("express");
-const dotenv = require("dotenv");
+//const dotenv = require("dotenv");
 const cors = require("cors");
 const connectDB = require("./config/db");
 
 // Load environment variables
-dotenv.config();
+//dotenv.config();
 
 // Connect to MongoDB
 connectDB();
